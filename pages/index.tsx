@@ -81,17 +81,7 @@ export default function Home() {
         )}
         <Confetti trigger={showConfetti} onComplete={handleConfettiComplete} />
 
-        <footer className="px-4 py-8 text-center text-text/60">
-          <p className="text-sm">
-            Xmas —{' '}
-            {new Date().toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-            })}
-          </p>
-          <p className="text-xs mt-2">Made with 💕</p>
-        </footer>
+
       </main>
 
       <Toaster
